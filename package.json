@@ -1,0 +1,23 @@
+{
+  "name": "preact-feather-display",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && npm run browserify",
+    "browserify": "browserify src/index.js -o src/index.js",
+    "watch": "tsc-watch --onSuccess \"npm run browserify\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "^10.7.2",
+    "preact-feather": "^4.2.1",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
